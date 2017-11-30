@@ -2,7 +2,7 @@
 
 [Link to original problem](https://code.google.com/codejam/contest/3264486/dashboard#s=p0)
 
-##Problem
+## Problem
 
 Last year, the Infinite House of Pancakes introduced a new kind of pancake. It has a happy face made of chocolate chips on one side (the "happy side"), and nothing on the other side (the "blank side").
 
@@ -14,15 +14,15 @@ Your apprentice cook, who is still learning the job, just used the old-fashioned
 
 Given the current state of the pancakes, calculate the minimum number of uses of the oversized pancake flipper needed to leave all pancakes happy side up, or state that there is no way to do it.
 
-##Input
+## Input
 
 The first line of the input gives the number of test cases, T. T test cases follow. Each consists of one line with a string S and an integer K. S represents the row of pancakes: each of its characters is either + (which represents a pancake that is initially happy side up) or - (which represents a pancake that is initially blank side up).
 
-##Output
+## Output
 
 For each test case, output one line containing Case #x: y, where x is the test case number (starting from 1) and y is either IMPOSSIBLE if there is no way to get all the pancakes happy side up, or an integer representing the the minimum number of times you will need to use the oversized pancake flipper to do it.
 
-##Limits
+## Limits
 
 1 ≤ T ≤ 100.
 Every character in S is either + or -.
@@ -34,7 +34,7 @@ Large dataset
 
 2 ≤ length of S ≤ 1000.
 
-##Sample
+## Sample
 
 ```
 Input
