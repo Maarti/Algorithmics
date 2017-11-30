@@ -2,6 +2,12 @@
 
 [Link to original problem](https://code.google.com/codejam/contest/3264486/dashboard#s=p0)
 
+## Usage
+```bash
+python3 pancake.py < A-small-practice.in > pancake_small.out 
+python3 pancake.py < A-large-practice.in > pancake_large.out
+```
+
 ## Problem
 
 Last year, the Infinite House of Pancakes introduced a new kind of pancake. It has a happy face made of chocolate chips on one side (the "happy side"), and nothing on the other side (the "blank side").
