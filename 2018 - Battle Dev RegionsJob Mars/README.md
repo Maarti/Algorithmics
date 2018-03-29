@@ -1,6 +1,7 @@
 # Battle Dev RegionsJob - Mars 2018
 
 [Link](https://www.isograd.com/FR/solutionconcours.php)
+
 778ème sur 3322
 
 1. Le meilleur restaurant
@@ -9,4 +10,6 @@
 4. Tris de crêpes
 5. Tramways
 6. Canards
+
+*Disclaimer : Code écrit sous la contrainte du temps et dans un contexte de compétition*
 

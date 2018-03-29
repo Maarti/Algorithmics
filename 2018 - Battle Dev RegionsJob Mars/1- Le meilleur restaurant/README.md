@@ -1,5 +1,7 @@
 # Battle Dev RegionsJob - Mars 2018
 
+*Disclaimer : Code écrit sous la contrainte du temps et dans un contexte de compétition*
+
 ## Le meilleur restaurant
 
 ### Énoncé
