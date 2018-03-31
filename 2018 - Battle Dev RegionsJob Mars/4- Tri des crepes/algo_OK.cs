@@ -21,7 +21,7 @@ namespace CSharpContestProject
 	class Program
 	{
 	    
-	    static int nbRetourne = 0;
+	    static int nbRetourne = 7;
 		static void Main(string[] args)		{  
 
 		string line;
@@ -49,12 +49,13 @@ namespace CSharpContestProject
         }
 		
 		static int[] Retourner(int[] list, int index){
-		    int[] newList = list.Clone();
+		    int[] newList = (int[])list.Clone();
 		    int newIndex = 0;
 		    for(int i=index;i>=0;i--){
 		        newList[newIndex]=list[i];
 		        newIndex++;
 		    }
+		    return newList;
 		}
 		
 		static bool IsSorted(int[] list){
@@ -64,6 +65,7 @@ namespace CSharpContestProject
 					return false;
 				nb=list[i];
 			}
+			return true;
 		}
 	}
 }
